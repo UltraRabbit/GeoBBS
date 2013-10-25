@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04975911168BDC230042595A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975910168BDC230042595A /* CoreMotion.framework */; };
+		04975928168C169A0042595A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975927168C169A0042595A /* AVFoundation.framework */; };
+		0497592F168C2D8E0042595A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0497592E168C2D8E0042595A /* CoreMedia.framework */; };
+		04975931168C36680042595A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04975930168C36680042595A /* ImageIO.framework */; };
 		04DD0942168ADA0800626B8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD0941168ADA0800626B8E /* UIKit.framework */; };
 		04DD0944168ADA0800626B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD0943168ADA0800626B8E /* Foundation.framework */; };
 		04DD0946168ADA0800626B8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD0945168ADA0800626B8E /* CoreGraphics.framework */; };
@@ -17,7 +21,6 @@
 		04DD0956168ADA0800626B8E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0955168ADA0800626B8E /* Default@2x.png */; };
 		04DD0958168ADA0900626B8E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0957168ADA0900626B8E /* Default-568h@2x.png */; };
 		04DD095B168ADA0900626B8E /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0959168ADA0900626B8E /* MainStoryboard_iPhone.storyboard */; };
-		04DD095E168ADA0900626B8E /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD095C168ADA0900626B8E /* MainStoryboard_iPad.storyboard */; };
 		04DD0961168ADA0900626B8E /* TNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DD0960168ADA0900626B8E /* TNViewController.m */; };
 		04DD0969168ADA0900626B8E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD0968168ADA0900626B8E /* SenTestingKit.framework */; };
 		04DD096A168ADA0900626B8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD0941168ADA0800626B8E /* UIKit.framework */; };
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04975910168BDC230042595A /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		04975927168C169A0042595A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		0497592E168C2D8E0042595A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		04975930168C36680042595A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		04DD093D168ADA0800626B8E /* GeoBBS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoBBS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD0941168ADA0800626B8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		04DD0943168ADA0800626B8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -51,7 +58,6 @@
 		04DD0955168ADA0800626B8E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		04DD0957168ADA0900626B8E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		04DD095A168ADA0900626B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		04DD095D168ADA0900626B8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		04DD095F168ADA0900626B8E /* TNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TNViewController.h; sourceTree = "<group>"; };
 		04DD0960168ADA0900626B8E /* TNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TNViewController.m; sourceTree = "<group>"; };
 		04DD0967168ADA0900626B8E /* GeoBBSTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoBBSTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +73,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04975931168C36680042595A /* ImageIO.framework in Frameworks */,
+				0497592F168C2D8E0042595A /* CoreMedia.framework in Frameworks */,
+				04975928168C169A0042595A /* AVFoundation.framework in Frameworks */,
+				04975911168BDC230042595A /* CoreMotion.framework in Frameworks */,
 				04DD0942168ADA0800626B8E /* UIKit.framework in Frameworks */,
 				04DD0944168ADA0800626B8E /* Foundation.framework in Frameworks */,
 				04DD0946168ADA0800626B8E /* CoreGraphics.framework in Frameworks */,
@@ -108,6 +118,10 @@
 		04DD0940168ADA0800626B8E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				04975930168C36680042595A /* ImageIO.framework */,
+				0497592E168C2D8E0042595A /* CoreMedia.framework */,
+				04975927168C169A0042595A /* AVFoundation.framework */,
+				04975910168BDC230042595A /* CoreMotion.framework */,
 				04DD0941168ADA0800626B8E /* UIKit.framework */,
 				04DD0943168ADA0800626B8E /* Foundation.framework */,
 				04DD0945168ADA0800626B8E /* CoreGraphics.framework */,
@@ -122,7 +136,6 @@
 				04DD0950168ADA0800626B8E /* TNAppDelegate.h */,
 				04DD0951168ADA0800626B8E /* TNAppDelegate.m */,
 				04DD0959168ADA0900626B8E /* MainStoryboard_iPhone.storyboard */,
-				04DD095C168ADA0900626B8E /* MainStoryboard_iPad.storyboard */,
 				04DD095F168ADA0900626B8E /* TNViewController.h */,
 				04DD0960168ADA0900626B8E /* TNViewController.m */,
 				04DD0948168ADA0800626B8E /* Supporting Files */,
@@ -240,7 +253,6 @@
 				04DD0956168ADA0800626B8E /* Default@2x.png in Resources */,
 				04DD0958168ADA0900626B8E /* Default-568h@2x.png in Resources */,
 				04DD095B168ADA0900626B8E /* MainStoryboard_iPhone.storyboard in Resources */,
-				04DD095E168ADA0900626B8E /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,14 +328,6 @@
 			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
-		04DD095C168ADA0900626B8E /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04DD095D168ADA0900626B8E /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		04DD0971168ADA0900626B8E /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -393,6 +397,7 @@
 				GCC_PREFIX_HEADER = "GeoBBS/GeoBBS-Prefix.pch";
 				INFOPLIST_FILE = "GeoBBS/GeoBBS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -404,6 +409,7 @@
 				GCC_PREFIX_HEADER = "GeoBBS/GeoBBS-Prefix.pch";
 				INFOPLIST_FILE = "GeoBBS/GeoBBS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +467,7 @@
 				04DD097B168ADA0900626B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04DD097C168ADA0900626B8E /* Build configuration list for PBXNativeTarget "GeoBBSTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				04DD097E168ADA0900626B8E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
